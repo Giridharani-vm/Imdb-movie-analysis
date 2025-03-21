@@ -13,7 +13,7 @@ page = st.sidebar.radio("Go to", ["Raw Data", "Tables", "Visualizations", "Filte
 # Load the dataset
 @st.cache_data
 def load_data():
-    file_path = "C:\\Users\\123\\Music\\imdb_movies.csv"
+    file_path = "imdb_movies.csv"
     return pd.read_csv(file_path)
 
 imdb_movies = load_data()
