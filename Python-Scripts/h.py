@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-!pip install seaborn
+pip install seaborn
 
 # Load dataset
 st.title("IMDB Movies Dashboard")
